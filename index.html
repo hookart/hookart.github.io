@@ -1,6 +1,14 @@
 <style>
-  .withdrawal-container {
+
+  body {
     background-color: #f18552;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .withdrawal-container {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -8,7 +16,7 @@
     font-size: 16px;
     line-height: 1.3;
     justify-content: center;
-    padding: 206px 80px;
+    padding: 80px 80px;
   }
   
   @media (max-width: 991px) {
@@ -79,7 +87,7 @@
   @media (max-width: 991px) {
     .blog-cta {
       max-width: 100%;
-      padding: 0 20px;
+      padding: 24px;
     }
   }
   
@@ -132,7 +140,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.1);
     display: flex;
     margin-top: 24px;
     gap: 16px;
@@ -142,7 +149,7 @@
   @media (max-width: 991px) {
     .download-cta {
       max-width: 100%;
-      padding: 0 20px;
+      padding: 24px;
     }
   }
   
@@ -189,22 +196,22 @@
   
   <section class="withdrawal-container">
     <div class="withdrawal-wrapper">
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fe4a136abd68e3afb0e6ba71406899de2c8bcf32e86648a027af7f7a5eaa3459?placeholderIfAbsent=true&apiKey=93ae7400993a4031b071d34042c73ec6" class="withdrawal-image" alt="Withdrawal process illustration" />
+      <img loading="lazy" src="OdysseyLogo.svg" class="withdrawal-image" alt="Withdrawal process illustration" />
       <div class="withdrawal-content">
         <p class="withdrawal-description">
           Lorem ipsum dolor sit amet consectetur. Quis gravida euismod fermentum urna. Pellentesque elementum pellentesque nulla est feugiat pulvinar.
         </p>
         <div class="blog-cta">
           <p class="blog-cta-text">To learn more visit our blog post.</p>
-          <a href="#" class="read-more-btn" role="button">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/036699362ee7d29b2a9eaa6f79970a2cfa606802c8839666fdc7eee9c79641fd?placeholderIfAbsent=true&apiKey=93ae7400993a4031b071d34042c73ec6" class="btn-icon" alt="" />
+          <a target="_blank" href="https://blog.hook.xyz/odyssey-winding-down/" class="read-more-btn" role="button">
+            <img loading="lazy" src="OpeninNewRounded.svg" class="btn-icon" alt="" />
             <span class="btn-text">Read More</span>
           </a>
         </div>
         <div class="download-cta">
           <p class="download-cta-text">View withdrawal list here.</p>
           <a href="#" class="download-csv-btn" role="button">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e4d69e5097889d099c540a1a8c2bf1ffb17edc51d3152ab2c04deadb701131da?placeholderIfAbsent=true&apiKey=93ae7400993a4031b071d34042c73ec6" class="btn-icon" alt="" />
+            <img loading="lazy" src="DownloadRounded.svg" class="btn-icon" alt="" />
             <span class="btn-text">Download CSV</span>
           </a>
         </div>
