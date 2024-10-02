@@ -1,0 +1,213 @@
+<style>
+  .withdrawal-container {
+    background-color: #f18552;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.3;
+    justify-content: center;
+    padding: 206px 80px;
+  }
+  
+  @media (max-width: 991px) {
+    .withdrawal-container {
+      padding: 100px 20px;
+    }
+  }
+  
+  .withdrawal-wrapper {
+    display: flex;
+    width: 596px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .withdrawal-image {
+    aspect-ratio: 4.5;
+    object-fit: contain;
+    object-position: center;
+    width: 450px;
+    align-self: center;
+    max-width: 100%;
+  }
+  
+  .withdrawal-content {
+    display: flex;
+    margin-top: 48px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  @media (max-width: 991px) {
+    .withdrawal-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .withdrawal-description {
+    align-self: stretch;
+    color: #fff;
+    text-align: center;
+    font: 600 18px/27px Euclid Circular A, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .withdrawal-description {
+      max-width: 100%;
+    }
+  }
+  
+  .blog-cta {
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fcf2e4;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .blog-cta {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .blog-cta-text {
+    font-feature-settings: "liga" off, "clig" off;
+    align-self: stretch;
+    min-width: 240px;
+    font-family: Euclid Circular A, sans-serif;
+    color: #cd6d1a;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1px;
+    width: 284px;
+    margin: auto 0;
+  }
+  
+  .read-more-btn {
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #cd6d1a;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    align-self: stretch;
+    display: flex;
+    height: 40px;
+    padding: 0 16px;
+    gap: 8px;
+    font-family: Avantt, sans-serif;
+    color: #fffaf1;
+    font-weight: 700;
+    margin: auto 0;
+  }
+  
+  .btn-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .btn-text {
+    font-feature-settings: "liga" off, "clig" off;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .download-cta {
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 24px;
+    gap: 16px;
+    padding: 16px 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .download-cta {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .download-cta-text {
+    font-feature-settings: "liga" off, "clig" off;
+    align-self: stretch;
+    font-family: Euclid Circular A, sans-serif;
+    color: #fcf2e4;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin: auto 0;
+  }
+  
+  .download-csv-btn {
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fcf2e4;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    align-self: stretch;
+    display: flex;
+    height: 40px;
+    padding: 0 16px;
+    gap: 8px;
+    font-family: Avantt, sans-serif;
+    color: #cd6d1a;
+    font-weight: 700;
+    margin: auto 0;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  </style>
+  
+  <section class="withdrawal-container">
+    <div class="withdrawal-wrapper">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fe4a136abd68e3afb0e6ba71406899de2c8bcf32e86648a027af7f7a5eaa3459?placeholderIfAbsent=true&apiKey=93ae7400993a4031b071d34042c73ec6" class="withdrawal-image" alt="Withdrawal process illustration" />
+      <div class="withdrawal-content">
+        <p class="withdrawal-description">
+          Lorem ipsum dolor sit amet consectetur. Quis gravida euismod fermentum urna. Pellentesque elementum pellentesque nulla est feugiat pulvinar.
+        </p>
+        <div class="blog-cta">
+          <p class="blog-cta-text">To learn more visit our blog post.</p>
+          <a href="#" class="read-more-btn" role="button">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/036699362ee7d29b2a9eaa6f79970a2cfa606802c8839666fdc7eee9c79641fd?placeholderIfAbsent=true&apiKey=93ae7400993a4031b071d34042c73ec6" class="btn-icon" alt="" />
+            <span class="btn-text">Read More</span>
+          </a>
+        </div>
+        <div class="download-cta">
+          <p class="download-cta-text">View withdrawal list here.</p>
+          <a href="#" class="download-csv-btn" role="button">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e4d69e5097889d099c540a1a8c2bf1ffb17edc51d3152ab2c04deadb701131da?placeholderIfAbsent=true&apiKey=93ae7400993a4031b071d34042c73ec6" class="btn-icon" alt="" />
+            <span class="btn-text">Download CSV</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
